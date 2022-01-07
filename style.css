@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#dark-mode:checked ~ .theme-wrapper {
+  background-color: navy;
+  color: ivory;
+}
+
+main {
+  border: solid 4px navy;
+}
+
+section {
+  display: none;
+}
+
+:target {
+  display: block;
+}
