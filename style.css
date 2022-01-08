@@ -17,6 +17,7 @@ body {
   --bg: hsla(161, 62%, 95%, 1);
   --text: hsla(216, 22%, 23%, 1);
   --navlink: hsla(341, 40%, 42%, 1);
+  --accent: hsla(160, 25%, 61%, 1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,6 +25,7 @@ body {
     --bg: hsla(216, 22%, 23%, 1);
     --text: hsla(161, 62%, 95%, 1);
     --navlink: hsla(160, 25%, 61%, 1);
+    --accent: hsla(341, 40%, 42%, 1);
   }
 }
 
@@ -31,6 +33,7 @@ body {
   --bg: hsla(216, 22%, 23%, 1);
   --text: hsla(161, 62%, 95%, 1);
   --navlink: hsla(160, 25%, 61%, 1);
+  --accent: hsla(341, 40%, 42%, 1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -38,12 +41,17 @@ body {
     --bg: hsla(161, 62%, 95%, 1);
     --text: hsla(216, 22%, 23%, 1);
     --navlink: hsla(341, 40%, 42%, 1);
+    --accent: hsla(160, 25%, 61%, 1);
   }
 }
 
 /* element styling */
 h1 {
   margin-top: 0;
+}
+
+hr {
+  color: var(--accent);
 }
 
 #color-toggle {
